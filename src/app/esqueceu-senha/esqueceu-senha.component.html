@@ -1,0 +1,52 @@
+
+<div>
+    <h3 class="h3">Esqueceu a Senha works!</h3>
+  
+    <div class="itens">
+       <div>
+        <form>
+          <mat-form-field class="formulário">
+            <mat-label>Email</mat-label>
+            <input type="email" matInput [formControl]="emailFormControl" placeholder="Ex. instituição@iserj.com">
+            @if (emailFormControl.hasError('email') && !emailFormControl.hasError('required')) {
+            }
+          </mat-form-field>
+        </form>
+      </div>
+  
+      <div>
+        <mat-form-field class="SenhaFormulário">
+          <mat-label>Digite sua senha</mat-label>
+          <input matInput [formControl]="senhaFormControl" [type]="hide ? 'password' : 'text'">
+           @if (senhaFormControl.hasError('required')){
+           }
+          <button mat-icon-button matSuffix (click)="CliqueNoEvento($event)" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="'hide'">
+            <mat-icon>
+              {{hide ? 'visibility_off' : 'visibility'}}
+            </mat-icon>
+           </button>
+        </mat-form-field>
+      </div>
+  
+      <div>
+        <mat-form-field class="SenhaFormulárioI">
+          <mat-label>Digite sua senha</mat-label>
+          <input matInput [formControl]="senhaFormControl" [type]="hide ? 'password' : 'text'">
+           @if (senhaFormControl.hasError('required')){
+           }
+          <button mat-icon-button matSuffix (click)="CliqueNoEvento($event)" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="'hide'">
+            <mat-icon>
+              {{hide ? 'visibility_off' : 'visibility'}}
+            </mat-icon>
+           </button>
+        </mat-form-field>
+      </div>
+
+      <button class="confirmarRecuperação">Recuperar</button>
+      <button class="IrLogin" (click)="cliqueIrLogin('login')">Ir Pra Login?</button>
+
+    </div>
+  
+  </div>
+  
+  

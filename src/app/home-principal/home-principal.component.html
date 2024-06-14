@@ -1,0 +1,53 @@
+
+  <div >
+
+    <h3 class="h3" style="text-align: center;">Login works!</h3>
+
+    <div class="itens">
+      <!-- (E-mail) para efeituação de login -->
+    <div >
+      <form >
+        <mat-form-field class="formulário">
+          <mat-label>E-mail</mat-label>
+          <input type="email" matInput [formControl]="emailFormControl" placeholder="Ex. instituição@iserj.com" style="font-size: 16px;">
+          @if (emailFormControl.hasError('email') && !emailFormControl.hasError('required')) {
+            <mat-error>Por favor, entrar com um endereço de e-mail válido</mat-error>
+          }
+          @if (emailFormControl.hasError('required')){
+            <mat-error style="font-size: 14px;">O E-mail é <strong>Obrigatório</strong></mat-error>
+          }
+        </mat-form-field>
+      </form>
+    </div>
+
+    <!--Formulário para digito de senha-->
+    <div >
+        <mat-form-field class="SenhaFormulário">
+       <mat-label>Digite sua senha</mat-label>
+       <input matInput [formControl]="senhaFormControl" [type]="hide ? 'password' : 'text'">
+        @if (senhaFormControl.hasError('required')){
+         <mat-error style="font-size: 14px;">Digite uma senha válida</mat-error>
+        }
+       <button mat-icon-button matSuffix (click)="CliqueNoEvento($event)" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="'hide'">
+         <mat-icon>
+           {{hide ? 'visibility_off' : 'visibility'}}
+         </mat-icon>
+        </button>
+     </mat-form-field>
+    </div>
+
+    <!-- Butão para reredicionamento para menu da página -->
+    <button class="botãoIrMenu" (click)="CliqueMenu('menu')" style="font-size: 15px;">Fazer Login</button>
+
+    <!--Página de Cadastro-->
+    <p class="Cadastro" (click)="Cadastro('cadastro')">Faça um Cadastro</p>
+
+    <!--Esqueceu a senha-->
+    <p class="EsqueciSenha" (click)="CliqueEsqueceu('Esqueceu_Senha')">Esqueceu sua senha?</p>
+    </div>
+
+  </div>
+
+
+
+
