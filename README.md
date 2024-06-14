@@ -24,6 +24,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ### Netlify Link Page </br>
 
+</img src="/public/printI.png">
+
 (<https://prototipotarefas-objetivos-roteamento.netlify.app>)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ea804ef2-4ad4-4289-ad96-e9c871479c7d/deploy-status)](https://app.netlify.com/sites/prototipotarefas-objetivos-roteamento/deploys)
