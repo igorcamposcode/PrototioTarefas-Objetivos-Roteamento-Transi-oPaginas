@@ -1,7 +1,93 @@
 .h3{
-    width: 1920px;
-    background-color: rgb(238, 175, 1);
-    margin: auto;
-    box-shadow: 2px 3px 3px 2px rgb(199, 47, 0);
-    text-align: center;
-  }
+  width: 1920px;
+  background-color: rgb(238, 175, 1);
+  margin: auto;
+  box-shadow: 2px 3px 3px 2px rgb(199, 47, 0);
+  text-align: center;
+  font-size: 19px;
+}
+
+.Containers{
+ display:block;
+ height: 620px;
+
+ width: 670px;
+ align-items: center;
+ justify-content: center;
+
+
+ background-color: rgb(42, 126, 165);
+ box-shadow: 2px 2px 6px 7px black;
+ border: 200%;
+ border-radius: 20px;
+
+ margin: 15%;
+ margin-top: 3.5%;
+ margin-right: 32%;
+ margin-inline-start: auto;
+}
+
+.NomeTarefa{
+  width: 150%;
+  min-width: 150px;
+  max-width: 500px;
+
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-inline-start: 12.9%;
+}
+
+.SelectColor{
+  width: 150%;
+  min-width: 150px;
+  max-width: 500px;
+
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-inline-start: 12.9%;
+}
+
+
+.DigiteTarefa{
+  width: 150%;
+  height: 320px;
+
+  min-width: 150px;
+  max-width: 500px;
+
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-inline-start: 12.9%;
+}
+
+.Incluir {
+  margin-right: 26px;
+  margin-top: 0%;
+  margin-inline-start: 16.5%;
+}
+
+.Incluir{
+  width: 50px;
+  height: 48px;
+  min-width: 250px;
+  max-width: 250px;
+
+  border-radius: 10px;
+  background-color: rgb(238, 104, 27);
+  font-size: 15px;
+
+  color: white;
+}
+
+.Menu{
+  width: 20px;
+  height: 48px;
+  min-width: 150px;
+  max-width: 150px;
+
+  border-radius: 10px;
+  background-color: rgb(238, 104, 27);
+  font-size: 15px;
+
+  color: white;
+}

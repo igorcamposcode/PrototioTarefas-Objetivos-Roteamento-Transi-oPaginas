@@ -23,26 +23,26 @@
  margin-inline-start: auto;
 }
 
-.formulário{
-  width: 50.5%;
+.Email{
+  width: 60.5%;
   min-width: 150px;
   max-width: 500px;
 
   margin-top: 3.5%;
   margin-right: 10%;
-  margin-inline-start: 25.9%;
+  margin-inline-start: 19.9%;
 
   color: black;
 }
 
-.SenhaFormulário{
-  width: 50.5%;
+.Senha{
+  width: 60.5%;
   min-width: 150px;
   max-width: 500px;
 
   margin-top: 2.5%;
   margin-right: 10%;
-  margin-inline-start: 25.9%;
+  margin-inline-start: 19.9%;
 }
 
 .botãoIrMenu {
@@ -88,7 +88,7 @@
   max-width: 150px;
 
   margin-right: 20px;
-  margin-top: 2.2%;
+  margin-top: 3.2%;
   margin-inline-start: 25.9%;
 
   color: white;

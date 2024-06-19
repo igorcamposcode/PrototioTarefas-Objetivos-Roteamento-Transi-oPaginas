@@ -1,1 +1,36 @@
-<h3 class="h3">Incluir works!</h3>
+
+<div>
+  <h3 class="h3">Incluir works!</h3>
+
+  <div class="Containers">
+    <mat-form-field class="NomeTarefa">
+      <mat-label>Nome da Tarefa</mat-label>
+      <input matInput [formControl]="tarefaFormControl">
+      @if(tarefaFormControl.hasError('required')){
+        <mat-error style="font-size: 15px; color: white;">
+          Digite o nome da <strong>Tarefa</strong>
+        </mat-error>
+      }
+    </mat-form-field>
+
+    <mat-form-field class="SelectColor">
+      <mat-label>Select Color</mat-label>
+      <mat-select>
+        <mat-option value="One">Red</mat-option>
+        <mat-option value="Two">Blue</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field class="DigiteTarefa">
+      <mat-label>Digite a Tarefa </mat-label>
+      <textarea matInput style="height: 260px"></textarea>
+    </mat-form-field>
+
+    <div class="Incluir&Sair">
+       <button class="Incluir">Incluir Tarefa</button>
+       <button class="Menu" (click)="VoltarMenu('menu')" >Voltar</button>
+    </div>
+
+  </div>
+
+</div>
