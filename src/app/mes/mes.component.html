@@ -6,7 +6,7 @@
     <mat-form-field class="NomeTarefa">
       <mat-label>Nome da Tarefa</mat-label>
       <input matInput [formControl]="tarefaFormControl">
-      @if(tarefaFormControl.hasError('required')){
+      @if(tarefaFormControl.hasError('required')) {
         <mat-error style="font-size: 15px; color: white;">
           Digite o nome da <strong>Tarefa</strong>
         </mat-error>
