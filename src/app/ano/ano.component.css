@@ -1,22 +1,21 @@
 .h3{
-    width: 1920px;
-    background-color: rgb(238, 175, 1);
-    margin: auto;
-    box-shadow: 2px 3px 3px 2px rgb(199, 47, 0);
-    text-align: center;
+  width: 1920px;
+  background-color: rgb(238, 175, 1);
+  margin: auto;
+  box-shadow: 2px 3px 3px 2px rgb(199, 47, 0);
+  text-align: center;
   }
 
   .Filtro{
-    min-width: 450px;
-    max-width: 1250px;
+  min-width: 450px;
+  max-width: 1250px;
 
-    margin-top: 2.5%;
-    margin-right: 10%;
-    margin-inline-start: 17.9%;
+  margin-top: 2.5%;
+  margin-right: 10%;
+  margin-inline-start: 17.9%;
   }
 
   .Voltar{
-
   height: 35px;
   min-width: 250px;
   max-width: 250px;
@@ -32,22 +31,22 @@
   }
 
   table {
-    border: 1px solid black;
-    border-collapse: collapse;
+  border: 1px solid black;
+  border-collapse: collapse;
 
-    min-width: 450px;
-    max-width: 1250px;
+  min-width: 450px;
+  max-width: 1250px;
 
-    margin-top: 1%;
-    margin-right: 10%;
-    margin-inline-start: 17.9%;
+  margin-top: 1%;
+  margin-right: 10%;
+  margin-inline-start: 17.9%;
   }
 
   .mat-mdc-form-field {
-    font-size: 14px;
-    width: 100%;
+  font-size: 14px;
+  width: 100%;
   }
 
   td, th {
-    width: 25%;
+  width: 25%;
   }

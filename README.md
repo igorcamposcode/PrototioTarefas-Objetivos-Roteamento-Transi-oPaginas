@@ -34,6 +34,10 @@ Imagem de exemplo do protótipo da página</br>
 
 ## Netlify Link Page </br>
 
-<https://prototipotarefas-objetivos-roteamento.netlify.app>
+<https://prototipotarefas.netlify.app/login>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ea804ef2-4ad4-4289-ad96-e9c871479c7d/deploy-status)](https://app.netlify.com/sites/prototipotarefas-objetivos-roteamento/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/be71dbff-6a3a-4900-8bd2-c48849217cff/deploy-status)](https://app.netlify.com/sites/prototipotarefas/deploys)
+
+## Vercel link page
+
+<https://prototipo-tarefas-objetivos-roteamento-transi-o-paginas.vercel.app/menu>
