@@ -40,8 +40,7 @@ Imagem de exemplo do protótipo da página</br>
 
 ## Vercel link page
 
-[def]
+<https://prototipo-tarefas-objetivos-roteamento-transi-o-paginas.vercel.app/menu>
 
 <meta property="twitter:image" content="Twitter link preview image URL">
 
-[def]: https://prototipo-tarefas-objetivos-roteamento-transi-o-paginas.vercel.app/menu
